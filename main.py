@@ -73,12 +73,12 @@ def sent_sms(symbol, percent, description, message, url):
     client = Client(account_sid, twilio_api_key)
 
     message = client.messages.create(
-        messaging_service_sid='MG3d173582d223dbfe5d91fc202b3f2957',
+        messaging_service_sid='insert your twillio messaging id',
         body=f"({symbol}){create_percentage_tag(percent)}\n "
              f"Title: {description}\n"
              f"Brief: {message}\n"
              f"{url}",
-        to='+14163055463'
+        to='insert your phone number'
     )
 
     print(message.status)
