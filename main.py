@@ -3,9 +3,9 @@ from datetime import date
 from twilio.rest import Client
 import pandas
 
-alpha_vantage_api_key = "insert API code here"
-newsapi_key = "insert API code here"
-twilio_api_key = "insert API code here"
+alpha_vantage_api_key = "insert your API key here"
+newsapi_key = "insert your API key here"
+twilio_api_key = "insert your API key here"
 
 data = pandas.read_csv("./stock_list.csv")
 
