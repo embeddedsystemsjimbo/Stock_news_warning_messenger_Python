@@ -2,7 +2,7 @@
 
 ***
 
-To run app, execute "Python3 pong_game.py" from terminal.
+To run app, execute "Python3 main.py" from terminal.
 
 ***
 
