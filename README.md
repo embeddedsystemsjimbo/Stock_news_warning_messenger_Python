@@ -1,4 +1,4 @@
-# stock_news_warning_messenger_Python
+# Stock_news_warning_messenger_Python
 
 ***
 
