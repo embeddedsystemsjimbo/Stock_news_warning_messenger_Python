@@ -68,7 +68,7 @@ def create_percentage_tag(price):
 
 def sent_sms(symbol, percent, description, message, url):
 
-    account_sid = 'ACec297af4b447a1530b6e5160caa04214'
+    account_sid = 'insert account SID here'
 
     client = Client(account_sid, twilio_api_key)
 
